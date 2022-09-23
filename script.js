@@ -1,6 +1,16 @@
+const prevDisplay = document.querySelector(".prevDisplay");
+const currentDisplay = document.querySelector(".currentDisplay");
+const numbers = document.querySelectorAll(".numButton");
+const operators = document.querySelectorAll(".opButton");
+const equals = document.querySelector(".equalsButton");
+const clear = document.querySelector(".clearButton");
+const deleteLast = document.querySelector(".deleteButton");
+const decimal = document.querySelector(".decimalButton");
+
 let operator = '';
 let num1 = '';
 let num2 = '';
+
 
 function operate() {
     num1 = Number(num1);
