@@ -23,8 +23,10 @@
     width: 400px;
     padding: 20px;
     flex: 1;
-    font-size: 0.5em;
+    font-size: 0.35em;
     border-bottom: 1px solid black;
+    font-family: 'Orbitron', sans-serif;
+    
 }
 
 .prevDisplay {
@@ -62,6 +64,8 @@
 
 button {
     cursor: pointer;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.15em;
 }
 
 button:hover {
