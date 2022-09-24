@@ -141,16 +141,16 @@ equals.addEventListener("click", () => {
 
 clear.addEventListener("click", clearDisplay)
 
-//function handleDecimal() {
-//    if (!num2.includes(".")) {
-//        num2 += ".";
-//        currentDisplay.textContent = num2;
-//    }
-//}
+function handleDecimal() {
+    if (!num2.includes(".")) {
+        num2 += ".";
+        currentDisplay.textContent = num2;
+    }
+}
 
-//decimal.addEventListener("click", () => {
-//    handleDecimal();
-//})
+decimal.addEventListener("click", () => {
+    handleDecimal();
+})
 
 deleteLast.addEventListener("click", e => {
     deletePrev();
