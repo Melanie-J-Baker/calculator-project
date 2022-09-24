@@ -94,15 +94,15 @@ function renderDisplay() {
     num2 = "";
 };
 
-/*function clearDisplay() {
+function clearDisplay() {
     num2 = "";
     num1 = "";
     operator = "";
     currentDisplay.textContent = "0";
     prevDisplay.textContent = "";
-}*/
+}
 
-/*function delete() {
+function deletePrev() {
     currentDisplay.textContent = "0";
     num2 = "";
 };
@@ -119,7 +119,7 @@ function handleDelete() {
         num1 = num1.slice(0, -1);
         currentDisplay.textContent = num1;
     }
-}*/
+}
 
 numbers.forEach(btn => {
     btn.addEventListener("click", e => {
@@ -139,7 +139,7 @@ equals.addEventListener("click", () => {
     }
 });
 
-/*clear.addEventListener("click", clearDisplay)*/
+clear.addEventListener("click", clearDisplay)
 
 //function handleDecimal() {
 //    if (!num2.includes(".")) {
@@ -152,6 +152,6 @@ equals.addEventListener("click", () => {
 //    handleDecimal();
 //})
 
-/*deleteLast.addEventListener("click", e => {
-    delete();
-})*/
+deleteLast.addEventListener("click", e => {
+    deletePrev();
+})
