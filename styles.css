@@ -25,11 +25,11 @@ html {
 .display {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
     width: 425px;
     min-height: 150px;
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
     flex: 1;
     font-size: 0.35em;
     border: 2px solid black;
