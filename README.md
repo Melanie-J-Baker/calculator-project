@@ -1,14 +1,8 @@
-# Calculator-Project
+# Calculator-Project - make an on-screen calculator using JavaScript, HTML, and CSS.
 
-Our final project is going to combine everything you’ve learned so far: you’re going to make an on-screen calculator using JavaScript, HTML, and CSS.
+![image](https://github.com/Melanie-J-Baker/Calculator-Project/assets/104843873/035d8e5d-7819-4eac-8e29-9495d30045f4)
 
-Assignment
-
-Here are some use cases (abilities your project needs to have):
-
-Your calculator is going to contain functions for all of the basic math operators you typically find on simple calculators: add, subtract, multiply, divide.
-
-Create a new function operate that takes an operator and 2 numbers and then calls one of the above functions on the numbers.
+Your calculator is going to contain functions for all of the basic math operators you typically find on simple calculators: add, subtract, multiply, divide. Create a new function operate that takes an operator and 2 numbers and then calls one of the above functions on the numbers.
 
 Create a basic HTML calculator with buttons for each digit, each of the above functions and an “Equals” key.
 
