@@ -1,5 +1,7 @@
 # Calculator-Project - make an on-screen calculator using JavaScript, HTML, and CSS.
 
+https://melanie-j-baker.github.io/Calculator-Project/
+
 ![image](https://github.com/Melanie-J-Baker/Calculator-Project/assets/104843873/035d8e5d-7819-4eac-8e29-9495d30045f4)
 
 Your calculator is going to contain functions for all of the basic math operators you typically find on simple calculators: add, subtract, multiply, divide. Create a new function operate that takes an operator and 2 numbers and then calls one of the above functions on the numbers.
